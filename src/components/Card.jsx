@@ -22,7 +22,7 @@ function Card() {
   return (
     <div className="flex  justify-center items-center h-[80vh]">
       <div className="Container bg-slate-100 rounded-lg w-5/6 overflow-hidden shadow-lg max-w-3xl">
-        <div className="quiz-header flex flex-col items-center p-10">
+        <div className="quiz-header flex flex-col items-center p-2 sm:p-10 ">
           <h1 className="text-2xl font-mono font-bold text-center p-4 m-0" dangerouslySetInnerHTML={{ __html: question }} />
           <div className="flex flex-col justify-center py-1 w-4/5">
             <button onClick={handleNext} value={options[0]} className="my-2 p-1 bg-gray-800 rounded-md text-white text-md hover:bg-gray-700" dangerouslySetInnerHTML={{__html:options[0]}} />
