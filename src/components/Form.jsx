@@ -9,9 +9,9 @@ const Form = () => {
 
   return (
     <div className="flex justify-center items-center h-[80vh]">
-      <div className="Container  bg-slate-400 rounded-lg w-5/6 overflow-hidden shadow-lg max-w-2xl">
+      <div className="Container  bg-slate-400 rounded-lg w-5/6 max-h-[60vh]  overflow-auto shadow-lg max-w-2xl ">
         <form>
-          <h1 className="text-3xl font-mono font-bold text-center p-1 m-0">
+          <h1 className="text-3xl font-mono font-bold text-center p-3 m-0">
             Quiz Setup
           </h1>
           <div className="flex flex-col justify-between p-4 h-[35vh]">
