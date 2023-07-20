@@ -21,7 +21,7 @@ function Card() {
 
   return (
     <div className="flex  justify-center items-center h-[80vh]">
-      <div className="Container bg-slate-100 rounded-lg w-5/6 overflow-auto max-h-[80vh] shadow-lg max-w-3xl">
+      <div className="Container bg-slate-100 rounded-lg w-5/6 overflow-auto max-h-[75vh] shadow-lg max-w-3xl">
         <div className="quiz-header flex flex-col items-center p-1 sm:p-10  overflow-hidden h-max]">
           <h1 className="text-xl font-mono font-bold text-center p-1 sm:2xl sm:p-4" dangerouslySetInnerHTML={{ __html: question }} />
           <div className="flex flex-col justify-center py-1 w-4/5">
